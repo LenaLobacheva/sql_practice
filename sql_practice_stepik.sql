@@ -24,6 +24,7 @@ GROUP BY city
 ORDER BY city ASC;
 
 	4. Вывести два города, в которых чаще всего были в командировках сотрудники. Вычисляемый столбец назвать Количество.
+	
 SELECT city, count(name) AS "Количество"
 FROM trip
 ORDER BY city 
